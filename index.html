@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <header>
+        <div class="container" id="head">
+            <h1 id="title">Survey!</h1>
+            <p id="description">This is a random survery to help build my skills</p>
+        </div>
+    </header>
+    <main>
+        <div class="container" id='form-div'>
+            <form id="survey-form">
+                <div class="field form-group">
+                    <label for="name" id=name-label>Name:
+                        <input type="text" id="name" placeholder="First and Last Name">
+                    </label>
+                </div>
+                <div class="field form-group">
+                    <label for="email" id="email-label">Email:
+                        <input type="email" id="email" placeholder="example@gmail.com">
+                    </label>
+                </div>
+                <div class="field form-group">
+                    <label for="number" id="number-label">Number:
+                        <input type="number" id="number" placeholder="0-99" max="99" min="0">
+                    </label>
+                </div>
+                <div class="field form-group">
+                <label for="dropdown">Gender:
+                    <select name="gender" id="dropdown">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="Alien">Alien</option>
+                        <option value="na">Rather not say</option>
+                    </select>
+                </label>
+                </div>
+                <div class="field form-group" id="cool-field"><label>How cool are you?</label>
+                    <label for="not-cool">
+                        <input type='radio' id="not-cool" name="cool" value="not-cool">
+                        Not cool
+                    </label>
+                    <label for="kinda-cool">
+                        <input type='radio' id="kinda-cool" name="cool" value="kind-cool">
+                        Kinda cool
+                    </label>
+                    <label for="">
+                        <input type='radio' id="super-cool" name="cool" value="super-cool">
+                        Super Cool
+                    </label>
+                </div>
+                <div class="field form-group" id="like-field"><label>What do you like?</label>
+                    <label for="dogs">
+                        <input type="checkbox" id="dogs" name="likes" value="dogs">
+                        Dogs
+                    </label>
+                    <label for="cats">
+                        <input type="checkbox" id="cats" name="likes" value="cats">
+                        Cats
+                    </label>
+                    <label for="games">
+                        <input type="checkbox" id="games" name="likes" value="games">
+                        Games
+                    </label>
+                </div>
+                <div class="field form-group">
+                    <textarea placeholder="Comments, Extra information..."></textarea>
+                    <label for="submit" id="submit-label"></label>
+                    <input id="submit" type="submit"></input>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+    </footer>
+
+</body>
+</html>

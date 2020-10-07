@@ -1,0 +1,103 @@
+html {
+    font-size: 1.3vw;
+    background-color: #68a2b9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('https://images2.alphacoders.com/870/87080.jpg');
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+.container {
+    width: 45%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    background-color: #376f85c7;
+}
+
+form {
+    width: 85%;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    margin: .63vh 0 .63vh;
+    flex-direction: column;
+    background-color: #224a5ac9;
+}
+
+label {
+    padding: 5px .51vw 0 .1vw;
+    margin: .71vh .51vw .2vh .341vw;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    flex-grow: 1;
+    color: black;
+    font-size: 1vw;
+    margin: .71vh .5vw;
+    padding: 12px 5px;
+    border-radius: 4px;
+    width: max-content;
+    box-sizing: border-box;
+    border: 1px solid #2f4f4f;
+}
+
+input:focus {
+    background-color: #68a2b9;
+}
+
+textarea:focus {
+    background-color: #68a2b9;
+}
+
+select {
+    border: none;
+    font-size: 1vw;
+    margin: .71vh .5vw;
+    width: max-content;
+    padding: 16px 20px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+input[type=checkbox], input[type=radio] {
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+    min-width: .75rem;
+    min-height: .75rem;
+    width: max-content;
+    box-sizing: border-box;
+    margin: 5px 1px 1px;
+}
+
+input[type=submit] {
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+    margin: 1vh .5vw;
+    padding: 2vh 2vw;
+    min-height: .75rem;
+    min-width: .75rem;
+    width: max-content;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 90%;
+    resize: none;
+    height: 150px;
+    font-size: 1vw;
+    padding: 12px 20px;
+    margin: .71vh .5vw;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+}
+  
